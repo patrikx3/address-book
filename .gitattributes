@@ -1,0 +1,12 @@
+*.docx  binary
+*.doc   binary
+*.xls   binary
+*.xlsx  binary
+*.vsd   binary
+*.odt   binary
+.ods    binary
+.odp    binary
+.sxw    binary
+.sxc    binary
+.sxi    binary
+.pptx   binary

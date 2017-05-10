@@ -1,0 +1,123 @@
+/* CSS Document */
+
+.form form {
+	width:400px;
+}
+
+.form label,
+.form span.label 
+{
+	font-size: smaller;
+	font-weight: bold;
+	display: block;
+	margin-top: 10px;
+}
+
+.form label
+{
+	float: left;
+	width: 100px;
+	text-align: right;
+	margin-right: 5px;
+}
+
+.form .ui-multiselect
+{
+	border: 1px solid rgb(128,128,128);
+	border: 1px solid rgba(128,128,128,0.25);
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	box-shadow: 0 0 1px #888;
+	-webkit-box-shadow: 0 0 1px #888;
+	-moz-box-shadow: 0 0 1px #888;
+}
+
+.form .ui-multiselect div.available {
+	border-left: 1px solid rgb(128,128,128);
+	border-left: 1px solid rgba(128,128,128,0.25);
+}
+
+.form input, 
+.form select, 
+.form textarea
+{
+	margin-top: 10px;
+	border-style: solid;
+	height: 1.2em;
+	border: 1px solid rgb(128,128,128);
+	border: 1px solid rgba(128,128,128,0.25);
+	background-color: #fff;
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#eeeeee), to(#fff));
+	background-image: -moz-linear-gradient(bottom, #eeeeee, #fff);
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	box-shadow: 0 0 1px #888;
+	-webkit-box-shadow: 0 0 1px #888;
+	-moz-box-shadow: 0 0 1px #888;
+	margin-right: 3px;
+	width: 260px;
+}
+
+.form input:focus, 
+.form select:focus, 
+.form textarea:focus
+{
+	border: 1px solid rgb(0,0,0);
+	border: 1px solid rgba(0,0,0,0.8);
+	box-shadow: 0 0 1px #000;
+	-webkit-box-shadow: 0 0 1px #000;
+	-moz-box-shadow: 0 0 1px #000;
+}
+
+.form input[readonly] {
+	border: 1px solid rgb(204,204,204);
+	border: 1px solid rgba(204,204,204,0.25);
+	background-color: transparent !important;	
+	background-image: none;	
+}
+
+.form .form-read-only input[readonly]
+{
+	border: none;
+	background-color: transparent;
+}
+
+.form-read-only {
+	display: none;
+        clear: both;
+}
+
+.form .error,
+.form input[readonly].error {
+	border-color: #f00 !important;
+}
+
+.form-container-right {
+	float: right;
+	min-width: 200px;
+}
+.form select[multiple] {
+	height: 100px;
+	width: 420px;
+}
+
+.ui-multiselect li a.action {
+	border: none;
+	background-color: #ccc;
+}
+
+.ui-multiselect li a.action:hover {
+	background-color: #ccc;
+}
+
+.ui-multiselect li {
+	overflow: hidden;
+}
+
+.form-date {
+	background-image: url(../images/calendar.png) !important;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
