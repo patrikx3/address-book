@@ -34,7 +34,7 @@ define ('DEFAULT_LOCALE', 'hu');
 $config = array();
 $config['available_locales'] = array('hu', 'en');
 
-$config['deploymented-url'] = 'https://address-book.patrikx3.tk/';
+$config['deploymented-url'] = 'https://address-book.patrikx3.com/';
 
 try {
 	$pdo = new PDO ( DSN );

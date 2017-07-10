@@ -142,7 +142,7 @@ global $config;
 </div>
 
 <div style="position: fixed; bottom: 5px; right: 5px; font-size: 12px; padding: 3px; background-color: white;">
-    <a href="http://www.patrikx3.tk/" target="_blank">&copy;<?php echo Language::item('layout', 'copyright') ?></a>
+    <a href="http://www.patrikx3.com/" target="_blank">&copy;<?php echo Language::item('layout', 'copyright') ?></a>
 </div>
 
 <script>
@@ -151,8 +151,9 @@ global $config;
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-82759374-1', 'auto');
+    ga('create', 'UA-102206174-1', 'auto');
     ga('send', 'pageview');
+
 
     $(document).ajaxSend(function (event, jqXHR, options) {
         ga('send', 'pageview', options.url);
