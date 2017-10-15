@@ -52,9 +52,9 @@ $(document).ready(function() {
           <li><a href="http://jquery.com/">jQuery</a>
             <ul>
               <li><a href="http://jqueryui.com/">jQuery UI</a></li>
-              <li><a href="http://stanlemon.net/projects/jgrowl.html">jGrowl</a></li>
-              <li><a href="http://code.drewwilson.com/entry/tiptip-jquery-plugin">tipTip</a></li>
-              <li><a href="http://labs.makotokw.com/en/jquery/ui_potato_menu">Potato Menu</a></li>
+              <li><a href="https://github.com/stanlemon/jGrowl">jGrowl</a></li>
+              <li><a href="https://github.com/drewwilson/TipTip">tipTip</a></li>
+              <li><a href="https://github.com/makotokw/jquery.ui.potato.menu/">Potato Menu</a></li>
               <li><a href="http://www.trirand.com/blog/">jqGrid</a></li>
               <li><a href="http://jquery.malsup.com/block/">blockUI</a></li>
               <li><a href="http://quasipartikel.at/multiselect/">Multiselect</a></li>   
