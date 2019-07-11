@@ -5,7 +5,7 @@
  */
 
 $.extend($.ui.multiselect.locale, {
-	addAll:'Mind +',
-	removeAll:'Mind -',
-	itemsCount:'db kiválasztva'
+    addAll: 'Mind +',
+    removeAll: 'Mind -',
+    itemsCount: 'db kiválasztva'
 });

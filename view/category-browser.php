@@ -1,10 +1,12 @@
-<?php 
+<?php
+
 use Lib\Language;
+
 ?>
 <script type="text/javascript">
-	$(document).ready(function() {
-		cm.grid('category-grid', 'category-pager');
-	});
+    $(document).ready(function () {
+        cm.grid('category-grid', 'category-pager');
+    });
 </script>
 
 <h1><?php echo Language::item('category-browser', 'title') ?></h1>
@@ -13,4 +15,3 @@ use Lib\Language;
 <div id="category-pager"></div>
 
 
- 

@@ -1,4 +1,4 @@
-<?php 
+<?php
 $lang['page_title'] = 'Address-book';
 $lang['header_title'] = 'Address-book';
 $lang['header_title_tooltip'] = 'Example internationalized AJAX system';

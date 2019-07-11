@@ -1,4 +1,5 @@
 <?php
+
 use Lib\Language;
 
 global $config;
@@ -10,10 +11,10 @@ global $config;
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title><?php echo Language::item('layout', 'page_title') ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
-    <meta name="google-site-verification" content="pbVywkvDYDmUoP7E8rwbmtetgqjmtR9sW8-eAT5A-rI" />
+    <meta name="google-site-verification" content="pbVywkvDYDmUoP7E8rwbmtetgqjmtR9sW8-eAT5A-rI"/>
     <base href="<?= BASE_URL ?>"/>
 
-    <meta name="description"  content="Patrik Laszlo Address Contact Book Címjegyzék Cím jegyzék"/>
+    <meta name="description" content="Patrik Laszlo Address Contact Book Címjegyzék Cím jegyzék"/>
     <meta name="keywords" content="Patrik,Laszlo,Address,Contact,Book,Címjegyzék,Cím,jegyzék"/>
     <meta name="author" content="Patrik Laszlo">
     <meta charset="UTF-8">
@@ -146,10 +147,17 @@ global $config;
 </div>
 
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-102206174-1', 'auto');
     ga('send', 'pageview');

@@ -1,4 +1,4 @@
-<?php 
+<?php
 $lang['page_title'] = 'Címjegyzék';
 $lang['header_title'] = 'Címjegyzék';
 $lang['header_title_tooltip'] = 'Példa többnemzetiségű AJAX címjegyzék alkalmazád';
