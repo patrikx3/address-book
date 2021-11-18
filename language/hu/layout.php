@@ -1,7 +1,7 @@
 <?php
 $lang['page_title'] = 'Címjegyzék';
 $lang['header_title'] = 'Címjegyzék';
-$lang['header_title_tooltip'] = 'Példa többnemzetiségű AJAX címjegyzék alkalmazád';
+$lang['header_title_tooltip'] = 'Példa többnemzetiségű AJAX címjegyzék alkalmazás';
 $lang['navigation_home'] = 'Főöldal';
 $lang['navigation_contact'] = 'Kapcsolatok';
 $lang['navigation_contact_new'] = 'Új kapcsolat';
