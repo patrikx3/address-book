@@ -146,28 +146,21 @@ global $config;
     <a href="http://www.patrikx3.com/" target="_blank">&copy;<?php echo Language::item('layout', 'copyright') ?></a>
 </div>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G6K4MGXCLX"></script>
 <script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
 
-    ga('create', 'UA-102206174-1', 'auto');
-    ga('send', 'pageview');
-
+    gtag('config', 'G-G6K4MGXCLX');
 
     $(document).ajaxSend(function (event, jqXHR, options) {
-        ga('send', 'pageview', options.url);
+        gtag('send', 'pageview', options.url);
     });
 
 </script>
+
 
 </body>
 </html>
