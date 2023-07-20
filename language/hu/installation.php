@@ -24,8 +24,6 @@ $lang['content'] = <<<HEREDOC
   <li>Az adatrács méretezhető</li>
   <li>DnD multi választós lista</li>
 </ul>
-<h2>Megjegyzés</h2>
-<p>Az alkalmazás semmilyen felesleges rendszert nem használ, mivel bizonyos rendszerek csak feleslegesen lassítják a szervert. Az adatbázis általánosítás a PDO beépített C alapú PHP függvény-könyvtárral, a template-ezés pedig sima PHP <em>include</em>-okkal lett megoldva, hogy ne legyen felesleges feldolgozás.</p>
 
 HEREDOC;
 ?>

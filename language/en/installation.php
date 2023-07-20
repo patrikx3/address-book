@@ -24,8 +24,6 @@ $lang['content'] = <<<HEREDOC
   <li>The datagrid is resizable</li>
   <li>Drag-and-drop multiselect list</li>
 </ul>
-<h2>Note</h2>
-<p>The application does not use any unnecessary framework, since most frameworks only slow down the server unnecessarily. Database abstraction is used via the builtin PHP PDO framwork which is the fastest since it is in C. Instead of slow templates, regular PHP is used in a MVC pattern via the <em>include</em> statement.</p>
 
 HEREDOC;
 ?>
